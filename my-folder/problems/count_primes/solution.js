@@ -3,27 +3,6 @@
  * @return {number}
  */
 var countPrimes = function(n) {
-    // let primeCount = 0
-    // const isPrime = (inputNum) => {
-    //     for(let i=2; i < (inputNum**0.5); i++){
-    //        if(inputNum % i === 0){
-    //            return false
-    //        }
-    //     }
-    //     return true
-    // }
-
-    // if(n < 2) {
-    //     return 0
-    // }
-    // for(let i=2; i < n; i++){
-    //     if(isPrime(i)){
-    //         primeCount++
-    //     }
-    // }
-    
-
-    // return primeCount
 
     let isPrime = []
     let count = 0
