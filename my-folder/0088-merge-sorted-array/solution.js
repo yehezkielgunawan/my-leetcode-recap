@@ -7,11 +7,10 @@
  */
 var merge = function(nums1, m, nums2, n) {
   let i = m
-  let j = 0
 
-    while(j < n){
+
+    for(let j=0; j<n; j++){
         nums1[i] = nums2[j]
-        j++
         i++
     }
 
